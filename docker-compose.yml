@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  web:
+    image: janginsung_django_web:v1
+    build: .
+    container_name: janginsung_django_web
+    command: python manage.py runserver 0:8000
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/janginsung_django_web
+    expose:
+      - "8000"
