@@ -4,9 +4,11 @@ Reference material for https://medium.com/@zhao.li/how-to-understand-pulling-ima
 Getting Started
 ---------------
 1. install docker
-1. install docker-compose
-1. clone repository: `git clone --recursive https://github.com/parkjungkwan/madrid-docker-janginsung-django-user-board.git`
-1. run `docker-compose pull` to pull the images
+2. install docker-compose
+3. clone repository: `git clone --recursive https://github.com/parkjungkwan/madrid-docker-janginsung-django-user-board.git`
+4. cd madrid-docker-janginsung-django-user-board
+5. run `docker-compose pull` to pull the images
+6. docker-compose up
 
 Verify Image
 ------------
