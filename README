@@ -3,9 +3,9 @@ Getting Started
 ---------------
 1. install docker
 2. install docker-compose
-3. clone repository: `git clone --recursive https://github.com/parkjungkwan/madrid-docker-janginsung-django-user-board.git`
+3. git clone --recursive https://github.com/parkjungkwan/madrid-docker-janginsung-django-user-board.git
 4. cd madrid-docker-janginsung-django-user-board
-5. run `docker-compose pull` to pull the images
+5. docker-compose pull
 6. docker-compose up
 
 
